@@ -6,6 +6,7 @@
       Output: [0,1]
       Explanation: Because nums[0] + nums[1] == 9, we return [0, 1].
 
+------------------------------------------------------------------------------------------------------------------------------------------------------------
       
       2.Given an integer x, return true if x is a 
       palindrome, and false otherwise.
@@ -15,6 +16,7 @@
       Output: true
       Explanation: 121 reads as 121 from left to right and from right to left.
 
+------------------------------------------------------------------------------------------------------------------------------------------------------------
 
       
       3.Roman numerals are represented by seven different symbols: I, V, X, L, C, D and M.
@@ -32,6 +34,7 @@
       Output: 58
       Explanation: L = 50, V= 5, III = 3.
 
+------------------------------------------------------------------------------------------------------------------------------------------------------------
       
       
       4. Remove duplicates in a sorted array (2 poiter used to solve this problem)
@@ -48,6 +51,7 @@
       Explanation: Your function should return k = 2, with the first two elements of nums being 1 and 2 respectively.
       It does not matter what you leave beyond the returned k (hence they are underscores).
 
+------------------------------------------------------------------------------------------------------------------------------------------------------------
 
       
       5.Write a function to find the longest common prefix string amongst an array of strings.If there is no common prefix, return an empty string "".
@@ -62,6 +66,7 @@
       Explanation: There is no common prefix among the input strings.
 
 
+------------------------------------------------------------------------------------------------------------------------------------------------------------
 
       
       6.Convert integer to roman, For example, 2 is written as II in Roman numeral, just two one's added together. 12 is written as XII, which is simply X + II. 
@@ -72,3 +77,4 @@
       Output: "III"
       Explanation: 3 is represented as 3 ones.
 
+------------------------------------------------------------------------------------------------------------------------------------------------------------
