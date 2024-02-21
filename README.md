@@ -51,10 +51,18 @@
       Example 1:
       Input: strs = ["flower","flow","flight"]
       Output: "fl"
-      Example 2:
       
+      Example 2:
       Input: strs = ["dog","racecar","car"]
       Output: ""
       Explanation: There is no common prefix among the input strings.
 
 ---------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+      4.Convert integer to roman, For example, 2 is written as II in Roman numeral, just two one's added together. 12 is written as XII, which is simply X + II. 
+      The number 27 is written as XXVII, which is XX + V + II.
+      Example 1:
+      Input: num = 3
+      Output: "III"
+      Explanation: 3 is represented as 3 ones.
+--
