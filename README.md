@@ -6,7 +6,7 @@
       Output: [0,1]
       Explanation: Because nums[0] + nums[1] == 9, we return [0, 1].
 
-
+-
       
       2.Given an integer x, return true if x is a 
       palindrome, and false otherwise.
