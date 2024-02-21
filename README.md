@@ -6,6 +6,7 @@
       Output: [0,1]
       Explanation: Because nums[0] + nums[1] == 9, we return [0, 1].
 
+      
       2.Given an integer x, return true if x is a 
       palindrome, and false otherwise.
       
@@ -14,7 +15,7 @@
       Output: true
       Explanation: 121 reads as 121 from left to right and from right to left.
 
-======================================================================================================
+
       
       3.Roman numerals are represented by seven different symbols: I, V, X, L, C, D and M.
       Symbol       Value
@@ -32,6 +33,7 @@
       Explanation: L = 50, V= 5, III = 3.
 
       
+      
       4. Remove duplicates in a sorted array (2 poiter used to solve this problem)
       Given an integer array nums sorted in non-decreasing order, remove the duplicates in-place such that each unique element appears only once. 
       The relative order of the elements should be kept the same. Then return the number of unique elements in nums.
@@ -47,6 +49,7 @@
       It does not matter what you leave beyond the returned k (hence they are underscores).
 
 
+      
       5.Write a function to find the longest common prefix string amongst an array of strings.If there is no common prefix, return an empty string "".
       
       Example 1:
@@ -60,6 +63,7 @@
 
 
 
+      
       6.Convert integer to roman, For example, 2 is written as II in Roman numeral, just two one's added together. 12 is written as XII, which is simply X + II. 
       The number 27 is written as XXVII, which is XX + V + II.
       
