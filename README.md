@@ -88,4 +88,14 @@
       Explanation: Your function should return k = 2, with the first two elements of nums being 2.
       It does not matter what you leave beyond the returned k (hence they are underscores).
 ------------------------------------------------------------------------------------------------------------------------------------------------------------
+      8.Find the index of the first occurrence in a string
+      Given two strings needle and haystack, return the index of the first occurrence of needle in haystack, or -1 if needle is not part of haystack.
+      Example 1:
+      
+      Input: haystack = "sadbutsad", needle = "sad"
+      Output: 0
+      Explanation: "sad" occurs at index 0 and 6.
+      The first occurrence is at index 0, so we return 0
+------------------------------------------------------------------------------------------------------------------------------------------------------------
 
+      
