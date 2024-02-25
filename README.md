@@ -81,8 +81,8 @@
       7.Remove element
       Given an integer array nums and an integer val, remove all occurrences of val in nums in-place. 
       The order of the elements may be changed. Then return the number of elements in nums which are not equal to val.
-      Example 1:
       
+      Example 1:
       Input: nums = [3,2,2,3], val = 3
       Output: 2, nums = [2,2,_,_]
       Explanation: Your function should return k = 2, with the first two elements of nums being 2.
@@ -90,8 +90,8 @@
 ------------------------------------------------------------------------------------------------------------------------------------------------------------
       8.Find the index of the first occurrence in a string
       Given two strings needle and haystack, return the index of the first occurrence of needle in haystack, or -1 if needle is not part of haystack.
-      Example 1:
       
+      Example 1:
       Input: haystack = "sadbutsad", needle = "sad"
       Output: 0
       Explanation: "sad" occurs at index 0 and 6.
@@ -101,12 +101,23 @@
       9.Length of last word
       Given a string s consisting of words and spaces, return the length of the last word in the string.# A word is a maximal  substring
       consisting of non-space characters only.
-      Example 1:
       
+      Example 1:
       Input: s = "Hello World"
       Output: 5
       Explanation: The last word is "World" with length 5.
 
+------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+      10.Given a sorted array of distinct integers and a target value, return the index if the target is found. If not, return the index where it would be if it were inserted in order.
+      
+      Example 1:
+      Input: nums = [1,3,5,6], target = 5
+      Output: 2
+      
+      Example 2:
+      Input: nums = [1,3,5,6], target = 2
+      Output: 1
 ------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 
