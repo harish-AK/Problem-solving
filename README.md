@@ -142,7 +142,7 @@
       Input: s = "()"
       Output: true
 ------------------------------------------------------------------------------------------------------------------------------------------------------------
-      A phrase is a palindrome if, after converting all uppercase letters into lowercase letters and removing all non-alphanumeric characters, it reads the same forward and backward. Alphanumeric characters            include letters and numbers. Given a string s, return true if it is a palindrome, or false otherwise.
+      13.A phrase is a palindrome if, after converting all uppercase letters into lowercase letters and removing all non-alphanumeric characters, it reads the same forward and backward. Alphanumeric characters         include letters and numbers. Given a string s, return true if it is a palindrome, or false otherwise.
       
       Example 1:
       Input: s = "A man, a plan, a canal: Panama"
@@ -154,6 +154,16 @@
       Output: false
       Explanation: "raceacar" is not a palindrome.
       
+------------------------------------------------------------------------------------------------------------------------------------------------------------
+      
+      14.Given a non-empty array of integers nums, every element appears twice except for one. Find that single one.
+
+      You must implement a solution with a linear runtime complexity and use only constant extra space.
+      
+      Example 1:
+      Input: nums = [2,2,1]
+      Output: 1
+
 ------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 
