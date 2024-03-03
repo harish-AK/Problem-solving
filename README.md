@@ -166,4 +166,47 @@
 
 ------------------------------------------------------------------------------------------------------------------------------------------------------------
 
+      15.Given a non-negative integer x, return the square root of x rounded down to the nearest integer. 
+      The returned integer should be non-negative as well
+      You must not use any built-in exponent function or operator.
+      For example, do not use pow(x, 0.5) in c++ or x ** 0.5 in python.
+       
+      Example 1:
+      Input: x = 4
+      Output: 2
+      Explanation: The square root of 4 is 2, so we return 2.
+
+------------------------------------------------------------------------------------------------------------------------------------------------------------
+      16.Power of 2
+      Given an integer n, return true if it is a power of two. Otherwise, return false.
+      An integer n is a power of two, if there exists an integer x such that n == 2x.
+      
+      Example 1:
+      Input: n = 1
+      Output: true
+      Explanation: 20 = 1
+
+------------------------------------------------------------------------------------------------------------------------------------------------------------
+      17.move zeros
+      Given an integer array nums, move all 0's to the end of it while maintaining the relative order of the non-zero elements.
+      Note that you must do this in-place without making a copy of the array.
+      
+      Example 1:
+      Input: nums = [0,1,0,3,12]
+      Output: [1,3,12,0,0]
+------------------------------------------------------------------------------------------------------------------------------------------------------------
+      18.sqrt of x
+      Given a non-negative integer x, return the square root of x rounded down to the nearest integer. The returned integer should be non-negative as well.
+      You must not use any built-in exponent function or operator.
+      For example, do not use pow(x, 0.5) in c++ or x ** 0.5 in python.
+       
+      Example 1:
+      Input: x = 4
+      Output: 2
+      Explanation: The square root of 4 is 2, so we return 2.
+
+------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+
+
 
