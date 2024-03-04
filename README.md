@@ -206,6 +206,48 @@
       Explanation: The square root of 4 is 2, so we return 2.
 
 ------------------------------------------------------------------------------------------------------------------------------------------------------------
+      19.Given two integer arrays nums1 and nums2, return an array of their intersection. Each element in the result must be unique 
+      and you may return the result in any order.
+      
+      Example 1:
+      Input: nums1 = [1,2,2,1], nums2 = [2,2]
+      Output: [2]
+      
+      Example 2:
+      Input: nums1 = [4,9,5], nums2 = [9,4,9,8,4]
+      Output: [9,4]
+      Explanation: [4,9] is also accepted.
+
+------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+      20.Add digits
+      Given an integer num, repeatedly add all its digits until the result has only one digit, and return it.
+      
+      Example 1:
+      Input: num = 38
+      Output: 2
+      Explanation: The process is
+      38 --> 3 + 8 --> 11
+      11 --> 1 + 1 --> 2 
+      Since 2 has only one digit, return it.
+
+------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+      21.Contains duplicate
+      Given an integer array nums, return true if any value appears at least twice in the array, and return false if every element is distinct.
+      
+      Example 1:
+      Input: nums = [1,2,3,1]
+      Output: true
+      
+      Example 2:
+      Input: nums = [1,2,3,4]
+      Output: false
+
+------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+
+
 
 
 
