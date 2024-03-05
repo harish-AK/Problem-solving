@@ -246,6 +246,46 @@
 
 ------------------------------------------------------------------------------------------------------------------------------------------------------------
 
+      22.Valid Anagram
+      Given two strings s and t, return true if t is an anagram of s, and false otherwise.
+      An Anagram is a word or phrase formed by rearranging the letters of a different word or phrase, typically using all the original letters exactly once.
+      
+      Example 1:
+      Input: s = "anagram", t = "nagaram"
+      Output: true
+          
+      Example 2:
+      Input: s = "rat", t = "car"
+
+------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+      23.Group Anagrams
+      Given an array of strings strs, group the anagrams together. You can return the answer in any order.
+      An Anagram is a word or phrase formed by rearranging the letters of a different word or phrase, typically using all the original letters exactly once.
+      
+      Example 1:
+      Input: strs = ["eat","tea","tan","ate","nat","bat"]
+      Output: [["bat"],["nat","tan"],["ate","eat","tea"]]
+      
+      Example 2:
+      Input: strs = [""]
+      Output: [[""]]
+------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+      24.Top K frequent elements
+      Given an integer array nums and an integer k, return the k most frequent elements. You may return the answer in any order.
+      
+      Example 1:
+      Input: nums = [1,1,1,2,2,3], k = 2
+      Output: [1,2]  Cause 1 and 2 are the 2 most frequent elements appears in the array
+      
+      Example 2:
+      Input: nums = [1], k = 1
+      Output: [1]
+
+------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+
 
 
 
