@@ -284,9 +284,23 @@
       Output: [1]
 
 ------------------------------------------------------------------------------------------------------------------------------------------------------------
+      25 product of array except self
+      Given an integer array nums, return an array answer such that answer[i] is equal to the product of all the elements of nums except nums[i].
+      The product of any prefix or suffix of nums is guaranteed to fit in a 32-bit integer.
+      You must write an algorithm that runs in O(n) time and without using the division operation.
+      
+      Example 1:
+      Input: nums = [1,2,3,4]
+      Output: [24,12,8,6]
+      
+      Explanation:
+      For the element at index 0 (value 1), the product of all other elements is 2 * 3 * 4 = 24.
+      For the element at index 1 (value 2), the product of all other elements is 1 * 3 * 4 = 12.
+      For the element at index 2 (value 3), the product of all other elements is 1 * 2 * 4 = 8.
 
+------------------------------------------------------------------------------------------------------------------------------------------------------------
 
-      25.Longest commmon sequence
+      26.Longest commmon sequence
       Given an unsorted array of integers nums, return the length of the longest consecutive elements sequence.
       You must write an algorithm that runs in O(n) time.
       
@@ -298,6 +312,19 @@
       Example 2:
       Input: nums = [0,3,7,2,5,8,4,6,0,1]
       Output: 9
+
+------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+      27. 2 sum II
+      Given a 1-indexed array of integers numbers that is already sorted in non-decreasing order, find two numbers such that they add up to a specific target number. Let these two numbers be numbers[index1] and        numbers[index2] where 1 <= index1 < index2 <= numbers.length.
+      Return the indices of the two numbers, index1 and index2, added by one as an integer array [index1, index2] of length 2.
+      The tests are generated such that there is exactly one solution. You may not use the same element twice.
+      Your solution must use only constant extra space.
+      
+      Example 1:
+      Input: numbers = [2,7,11,15], target = 9
+      Output: [1,2]
+      Explanation: The sum of 2 and 7 is 9. Therefore, index1 = 1, index2 = 2. We return [1, 2].
 
 ------------------------------------------------------------------------------------------------------------------------------------------------------------
 
