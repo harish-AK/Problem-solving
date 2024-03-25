@@ -359,6 +359,177 @@
 
 ------------------------------------------------------------------------------------------------------------------------------------------------------------
 
+      31.Min stack
+      Design a stack that supports push, pop, top, and retrieving the minimum element in constant time.
+      Implement the MinStack class:
+      MinStack() initializes the stack object.
+      void push(int val) pushes the element val onto the stack.
+      void pop() removes the element on the top of the stack.
+      int top() gets the top element of the stack.
+      int getMin() retrieves the minimum element in the stack.
+      You must implement a solution with O(1) time complexity for each function.
+      
+      Example 1:
+      Input
+      ["MinStack","push","push","push","getMin","pop","top","getMin"]
+      [[],[-2],[0],[-3],[],[],[],[]]
+      
+      Output
+      [null,null,null,null,-3,null,0,-2]
+
+------------------------------------------------------------------------------------------------------------------------------------------------------------
+      32.Climbing stairs
+      You are climbing a staircase. It takes n steps to reach the top.
+      Each time you can either climb 1 or 2 steps. In how many distinct ways can you climb to the top?
+      
+      Example 1:
+      Input: n = 2
+      Output: 2
+      Explanation: There are two ways to climb to the top.
+      1. 1 step + 1 step
+      2. 2 steps
+
+------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+      33.Happy number
+      Write an algorithm to determine if a number n is happy.
+      A happy number is a number defined by the following process:
+      Starting with any positive integer, replace the number by the sum of the squares of its digits.
+      Repeat the process until the number equals 1 (where it will stay), or it loops endlessly in a cycle which does not include 1.
+      Those numbers for which this process ends in 1 are happy.
+      Return true if n is a happy number, and false if not.
+      
+      Example 1:
+      Input: n = 19
+      Output: true
+      Explanation:
+      12 + 92 = 82
+      82 + 22 = 68
+      62 + 82 = 100
+      12 + 02 + 02 = 1
+------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+      34.Third maximum number
+      Given an integer array nums, return the third distinct maximum number in this array. If the third maximum does not exist, return the maximum number.
+      
+      Example 1:
+      Input: nums = [3,2,1]
+      Output: 1
+      Explanation:
+      The first distinct maximum is 3.
+      The second distinct maximum is 2.
+      The third distinct maximum is 1.
+
+------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+      35.To lower
+      Given a string s, return the string after replacing every uppercase letter with the same lowercase letter.
+      
+      Example 1:
+      Input: s = "Hello"
+      Output: "hello"
+------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+      36.Repeated Sub string pattern
+      Given a string s, check if it can be constructed by taking a substring of it and appending multiple copies of the substring together.
+      
+      Example 1:
+      Input: s = "abab"
+      Output: true
+      Explanation: It is the substring "ab" twice.
+------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+      37.There are n packs where the ith pack contains apple[i] apples. There are m boxes as well, and the ith box has a capacity of capacity[i] apples.
+      Return the minimum number of boxes you need to select to redistribute these n packs of apples into boxes.
+      Note that, apples from the same pack can be distributed into different boxes.
+      
+      Example 1:
+      Input: apple = [1,3,2], capacity = [4,3,1,5,2]
+      Output: 2
+      Explanation: We will use boxes with capacities 4 and 5.
+      It is possible to distribute the apples as the total capacity is greater than or equal to the total number of apples.
+------------------------------------------------------------------------------------------------------------------------------------------------------------
+      38.Reverse string
+      Write a function that reverses a string. The input string is given as an array of characters s.
+      You must do this by modifying the input array in-place with O(1) extra memory.
+      
+      Example 1:
+      Input: s = ["h","e","l","l","o"]
+      Output: ["o","l","l","e","h"]
+------------------------------------------------------------------------------------------------------------------------------------------------------------
+      39.Distribute money to maximum children
+      You are given an integer money denoting the amount of money (in dollars) that you have and another integer children denoting the number of children that you must distribute the money to.
+      You have to distribute the money according to the following rules:
+      All money must be distributed.
+      Everyone must receive at least 1 dollar.
+      Nobody receives 4 dollars.
+      Return the maximum number of children who may receive exactly 8 dollars if you distribute the money according to the aforementioned rules. If there is no way to distribute the money, return -1.
+      
+      Example 1:
+      Input: money = 20, children = 3
+      Output: 1
+      Explanation: 
+      The maximum number of children with 8 dollars will be 1. One of the ways to distribute the money is:
+      - 8 dollars to the first child.
+      - 9 dollars to the second child. 
+      - 3 dollars to the third child.
+      It can be proven that no distribution exists such that number of children getting 8 dollars is greater than 1.
+------------------------------------------------------------------------------------------------------------------------------------------------------------
+      40.Find maximum divisibility score
+      You are given two 0-indexed integer arrays nums and divisors.
+      The divisibility score of divisors[i] is the number of indices j such that nums[j] is divisible by divisors[i].
+      Return the integer divisors[i] with the maximum divisibility score. If there is more than one integer with the maximum score, return the minimum of them.
+      
+      
+      Example 1:
+      Input: nums = [4,7,9,3,9], divisors = [5,2,3]
+      Output: 3
+      Explanation: The divisibility score for every element in divisors is:
+      The divisibility score of divisors[0] is 0 since no number in nums is divisible by 5.
+      The divisibility score of divisors[1] is 1 since nums[0] is divisible by 2.
+      The divisibility score of divisors[2] is 3 since nums[2], nums[3], and nums[4] are divisible by 3.
+      Since divisors[2] has the maximum divisibility score, we return it.
+------------------------------------------------------------------------------------------------------------------------------------------------------------
+      41.Find the distinct difference array
+
+      Example 1:
+      Input: nums = [1,2,3,4,5]
+      Output: [-3,-1,1,3,5]
+      Explanation: For index i = 0, there is 1 element in the prefix and 4 distinct elements in the suffix. Thus, diff[0] = 1 - 4 = -3.
+      For index i = 1, there are 2 distinct elements in the prefix and 3 distinct elements in the suffix. Thus, diff[1] = 2 - 3 = -1.
+      For index i = 2, there are 3 distinct elements in the prefix and 2 distinct elements in the suffix. Thus, diff[2] = 3 - 2 = 1.
+      For index i = 3, there are 4 distinct elements in the prefix and 1 distinct element in the suffix. Thus, diff[3] = 4 - 1 = 3.
+      For index i = 4, there are 5 distinct elements in the prefix and no elements in the suffix. Thus, diff[4] = 5 - 0 = 5.
+------------------------------------------------------------------------------------------------------------------------------------------------------------
+      42.Reverse a integer
+      Given a signed 32-bit integer x, return x with its digits reversed. If reversing x causes the value to go outside the signed 32-bit integer range [-231, 231 - 1], then return 0.
+      Assume the environment does not allow you to store 64-bit integers (signed or unsigned).
+      
+      Example 1:
+      Input: x = 123
+      Output: 321
+------------------------------------------------------------------------------------------------------------------------------------------------------------
+      43.Divide 2 integers
+      Given two integers dividend and divisor, divide two integers without using multiplication, division, and mod operator.
+      The integer division should truncate toward zero, which means losing its fractional part. For example, 8.345 would be truncated to 8, and -2.7335 would be truncated to -2.
+      Return the quotient after dividing dividend by divisor.
+      Note: Assume we are dealing with an environment that could only store integers within the 32-bit signed integer range: [−231, 231 − 1]. For this problem, if the quotient is strictly greater than 231 -            1,then return 231 - 1, and if the quotient is strictly less than -231, then return -231.
+      
+      Example 1:
+      Input: dividend = 10, divisor = 3
+      Output: 3
+      Explanation: 10/3 = 3.33333.. which is truncated to 3.
+
+------------------------------------------------------------------------------------------------------------------------------------------------------------
+      44.longest substring without repeating characters.
+      Given a string s, find the length of the longest substring without repeating characters.
+      
+      Example 1:
+      Input: s = "abcabcbb"
+      Output: 3
+      Explanation: The answer is "abc", with the length of 3.
+------------------------------------------------------------------------------------------------------------------------------------------------------------
+      
 
 
 
