@@ -529,8 +529,76 @@
       Output: 3
       Explanation: The answer is "abc", with the length of 3.
 ------------------------------------------------------------------------------------------------------------------------------------------------------------
+       45. String to integer
+       Implement the myAtoi(string s) function, which converts a string to a 32-bit signed integer (similar to C/C++'s atoi function).
+       The algorithm for myAtoi(string s) is as follows:
+       Read in and ignore any leading whitespace.
+       Check if the next character (if not already at the end of the string) is '-' or '+'. Read this character in if it is either. This determines if the final result is negative or positive respectively. Assume the result is positive if neither is present.
+       Read in next the characters until the next non-digit character or the end of the input is reached. The rest of the string is ignored.
+       Convert these digits into an integer (i.e. "123" -> 123, "0032" -> 32). If no digits were read, then the integer is 0. Change the sign as necessary (from step 2).
+       If the integer is out of the 32-bit signed integer range [-231, 231 - 1], then clamp the integer so that it remains in the range. Specifically, integers less than -231 should be clamped to -231, and integers greater than 231 - 1 should be clamped to 231 - 1.
+       Return the integer as the final result.
+       Note:
+      
+       Only the space character ' ' is considered a whitespace character.
+       Do not ignore any characters other than the leading whitespace or the rest of the string after the digits.
+       
+       Example 1:
+       Input: s = "42"
+       Output: 42
+       Explanation: The underlined characters are what is read in, the caret is the current reader position.
+       Step 1: "42" (no characters read because there is no leading whitespace)
+                ^
+       Step 2: "42" (no characters read because there is neither a '-' nor '+')
+                ^
+      Step 3: "42" ("42" is read in)
+             ^
+      The parsed integer is 42.
+      Since 42 is in the range [-231, 231 - 1], the final result is 42.
       
 
+------------------------------------------------------------------------------------------------------------------------------------------------------------
+      
+      46.POW(x,n)
+      Implement pow(x, n), which calculates x raised to the power n (i.e., xn).
+      
+      Example 1:
+      Input: x = 2.00000, n = 10
+      Output: 1024.00000
+------------------------------------------------------------------------------------------------------------------------------------------------------------
+      47.Longest word in dictionary
+      Given an array of strings words representing an English Dictionary, return the longest word in words that can be built one character at a time by other words in words.
+      If there is more than one possible answer, return the longest word with the smallest lexicographical order. If there is no answer, return the empty string.
+      Note that the word should be built from left to right with each additional character being added to the end of a previous word. 
+      
+      Example 1:
+      Input: words = ["w","wo","wor","worl","world"]
+      Output: "world"
+      Explanation: The word "world" can be built one character at a time by "w", "wo", "wor", and "worl".
 
-
+------------------------------------------------------------------------------------------------------------------------------------------------------------
+      48.Multiply srings
+      Given two non-negative integers num1 and num2 represented as strings, return the product of num1 and num2, also represented as a string.
+      Note: You must not use any built-in BigInteger library or convert the inputs to integer directly.
+      
+      Example 1:
+      Input: num1 = "2", num2 = "3"
+      Output: "6"
+------------------------------------------------------------------------------------------------------------------------------------------------------------
+      49.Sort colors
+      Given an array nums with n objects colored red, white, or blue, sort them in-place so that objects of the same color are adjacent, with the colors in the order red, white, and blue.
+      We will use the integers 0, 1, and 2 to represent the color red, white, and blue, respectively.
+      You must solve this problem without using the library's sort function.
+      
+      Example 1:
+      Input: nums = [2,0,2,1,1,0]
+      Output: [0,0,1,1,2,2]
+------------------------------------------------------------------------------------------------------------------------------------------------------------
+      50.find all duplicates in the array
+      Given an integer array nums of length n where all the integers of nums are in the range [1, n] and each integer appears once or twice, return an array of all the integers that appears twice.
+      You must write an algorithm that runs in O(n) time and uses only constant extra space.
+      Example 1:
+      Input: nums = [4,3,2,7,8,2,3,1]
+      Output: [2,3]
+------------------------------------------------------------------------------------------------------------------------------------------------------------
 
